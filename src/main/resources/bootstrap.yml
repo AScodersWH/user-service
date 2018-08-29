@@ -1,0 +1,9 @@
+server:
+  port: 8082
+spring:
+  application:
+    name: user-service
+  cloud:
+    config:
+      fail-fast: true
+      uri: http://config-server:8989/
